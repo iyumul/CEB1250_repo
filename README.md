@@ -17,8 +17,8 @@ def weather():
     print((temperature-32)*5/9)
     
 weather()
-
 ```
+
 ### 3. Are we Even or that's Odd?.
 ```python
 def showOddOrEven():
@@ -29,3 +29,14 @@ def showOddOrEven():
         print("Well, that's Odd!")
     
 showOddOrEven()
+```
+### 4. The largest number in the list.
+```python
+def largest_num_in_the_list( list ):
+    max = list[ 0 ]
+    for a in list:
+        if a > max:
+            max = a
+    return max
+print(largest_num_in_the_list([1, 10, -8, 0, 3, 17, 5]))
+```
