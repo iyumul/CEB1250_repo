@@ -1,6 +1,6 @@
 # CEB1250_repo
 hello world
-### 1. Define a method that ask the user for a number.
+### 1. Give me a number to square.
 ```python
 def showSquare():
     number = int(input("Please write a number: "))
@@ -17,4 +17,15 @@ def weather():
     print((temperature-32)*5/9)
     
 weather()
+
 ```
+### 3. Are we Even or that's Odd?.
+```python
+def showOddOrEven():
+    number = int(input("Are we Even or that's Odd? Please enter a number: "))
+    if (number % 2 == 0):
+        print("Fine we're Even!")
+    else:
+        print("Well, that's Odd!")
+    
+showOddOrEven()
