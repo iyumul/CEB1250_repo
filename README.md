@@ -52,3 +52,16 @@ def itIsPalindrome():
             
 itIsPalindrome()
 ```
+### 6. Count the number of vowels.
+```python
+def vowelCounter(listCountry):
+    string = ''.join(listCountry)
+    count = 0
+    vowels = 'aeiouAEIOU'
+    for ch in string:
+        if ch in vowels:
+            count += 1
+    return count
+
+print(vowelCounter(["usa","canada","thailand","philippines"]))
+```
