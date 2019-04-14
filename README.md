@@ -40,3 +40,15 @@ def largest_num_in_the_list( list ):
     return max
 print(largest_num_in_the_list([1, 10, -8, 0, 3, 17, 5]))
 ```
+### 5. Palindrome Check.
+```python
+def itIsPalindrome():
+    mystring = input("Check a word if it is a Palindrome. Enter a word: ")
+    for i in range(len(mystring) // 2):
+        if mystring[i] != mystring[- 1 - i]:
+            print('It is not Palindrome. Oopsie..')
+        else:
+            print('It is a Palindrome. Yay!')
+            
+itIsPalindrome()
+```
