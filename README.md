@@ -1,13 +1,8 @@
 # CEB1250_repo
-### Big Data Articles Reaction
-Please see attached Word document.
+### Big Data Articles Reaction - See attached document for Articles
 
-Article 1: Understanding Python Virtual Environments – Towards Data Science.
-
-Article 2: Data Science for Startups: Containers – Towards Data Science.
-
-### Coding Exercises:
-#### Session 1: PYTHON
+### Coding Exercises & other tasks:
+#### Session 1: PYTHON 101
 
 hello world
 ##### 1. Give me a number to square.
@@ -74,4 +69,5 @@ def vowelCounter(listCountry):
 
 print(vowelCounter(["usa","canada","thailand","philippines"]))
 ```
-
+#### Session 2: SQL
+##### Please see excel document for 3rd Normal Form exercise
