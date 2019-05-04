@@ -1,5 +1,5 @@
 # CEB1250_repo
-### Big Data Articles Reaction - See attached document for Articles
+### Articles Reaction - See attached document for Articles
 
 ### Coding Exercises & other tasks:
 #### Session 1: PYTHON 101
