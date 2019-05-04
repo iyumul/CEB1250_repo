@@ -1,11 +1,16 @@
 # CEB1250_repo
-## Big Data Articles Reaction
+### Big Data Articles Reaction
+Please see attached Word document.
 
-## Coding Exercises:
-### Session 1: PYTHON
+Article 1: Understanding Python Virtual Environments – Towards Data Science.
+
+Article 2: Data Science for Startups: Containers – Towards Data Science.
+
+### Coding Exercises:
+#### Session 1: PYTHON
 
 hello world
-#### 1. Give me a number to square.
+##### 1. Give me a number to square.
 ```python
 def showSquare():
     number = int(input("Please write a number: "))
@@ -14,7 +19,7 @@ def showSquare():
 
 showSquare()
 ```
-#### 2. Convert degrees of Fahrenheit to Celsius.
+##### 2. Convert degrees of Fahrenheit to Celsius.
 ```python
 def weather():
     temperature = int(input("Please write Fahrenheit temperature to convert to Celsius: "))
@@ -23,7 +28,7 @@ def weather():
     
 weather()
 ```
-#### 3. Are we Even or that's Odd?.
+##### 3. Are we Even or that's Odd?.
 ```python
 def showOddOrEven():
     number = int(input("Are we Even or that's Odd? Please enter a number: "))
@@ -34,7 +39,7 @@ def showOddOrEven():
     
 showOddOrEven()
 ```
-#### 4. The largest number in the list.
+##### 4. The largest number in the list.
 ```python
 def largest_num_in_the_list( list ):
     max = list[ 0 ]
@@ -44,7 +49,7 @@ def largest_num_in_the_list( list ):
     return max
 print(largest_num_in_the_list([1, 10, -8, 0, 3, 17, 5]))
 ```
-#### 5. Palindrome Check.
+##### 5. Palindrome Check.
 ```python
 def itIsPalindrome():
     mystring = input("Check a word if it is a Palindrome. Enter a word: ")
@@ -56,7 +61,7 @@ def itIsPalindrome():
             
 itIsPalindrome()
 ```
-#### 6. Count the number of vowels.
+##### 6. Count the number of vowels.
 ```python
 def vowelCounter(listCountry):
     string = ''.join(listCountry)
