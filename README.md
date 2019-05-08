@@ -72,7 +72,9 @@ print(vowelCounter(["usa","canada","thailand","philippines"]))
 #### Session 2: SQL
 ###### 1. Please see excel document for 3rd Normal Form exercise.
 ```python
-##### 2.Return all salaries that are between 40000 and 60000
+
+ 2.Return all salaries that are between 40000 and 60000
+
  mysql> select salary from employees.salaries where salary>=40000 and salary<=60000;
     Answer: 1336403 rows in set (1.90 sec)
 
