@@ -76,7 +76,15 @@ print(vowelCounter(["usa","canada","thailand","philippines"]))
  2.Return all salaries that are between 40000 and 60000
 
  mysql> select salary from employees.salaries where salary>=40000 and salary<=60000;
-    Answer: 1336403 rows in set (1.90 sec)
 
+    Answer: 1336403 rows in set (1.90 sec)
 ```
+
+```python
+ 3.Get all employees hired after 01-01-1995
+mysql> select distinct hire_date from employees.employees where hire_date>1995-01-01;
+
+    Answer: 5434 rows in set, 1 warning (0.24 sec)
+```
+
 
