@@ -2,7 +2,8 @@
 ### Articles Reaction - See attached document for Articles
 
 ### Coding Exercises & other tasks:
-#### Session 1: PYTHON 101
+
+#### Class 1: PYTHON 101
 
 hello world
 ##### 1. Give me a number to square.
@@ -69,34 +70,29 @@ def vowelCounter(listCountry):
 
 print(vowelCounter(["usa","canada","thailand","philippines"]))
 ```
-#### Session 2: SQL
-###### 1. Please see excel document for 3rd Normal Form exercise.
+#### Class 2: SQL
 ```python
 
- 2.Return all salaries that are between 40000 and 60000
+ 1. Please see excel document for 3rd Normal Form exercise.
 
- mysql> select salary from employees.salaries where salary>=40000 and salary<=60000;
+ 2. Return all salaries that are between 40000 and 60000
+
+mysql> select salary from employees.salaries where salary>=40000 and salary<=60000;
 
     Answer: 1336403 rows in set (1.90 sec)
-```
 
-```python
  3.Get all employees hired after 01-01-1995
 
 mysql> select distinct hire_date from employees.employees where hire_date>1995-01-01
 
     Answer: 5434 rows in set, 1 warning (0.24 sec)
 
-```
-```python
 4. Get all salaries from 60000 to 90000
 
 mysql> select salary from employees.salaries where salary>=60000 and salary<=90000
 
     Answer: 1261748 rows in set (1.01 sec)
 
-```
-```python
 5. Get all titles where title is equal to engineer
 
 mysql> select title from employees.titles where title='Engineer'
@@ -104,5 +100,28 @@ mysql> select title from employees.titles where title='Engineer'
     Answer: 115003 rows in set (0.22 sec)
 
 ```
+
+### Class 3: SQL-Relational Database Nested Queries
+
+```python
+
+1.  Return the minimum salary of the salary table
+
+mysql> select salary from employees.salaries order by salary asc limit 10
+
+Answer: 38623
+
+2. What is the difference between “Having” and “Where” clauses
+
+Answer: A WHERE clause is used is filter records from a result.  The filter occurs before any groupings are made.
+        A HAVING clause is used to filter values from a group.
+
+3. Return the maximum value for date of birth on the employee table
+
+Answer: 1965-02-01
+
+
+
+
 
 
