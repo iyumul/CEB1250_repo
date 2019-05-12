@@ -82,9 +82,27 @@ print(vowelCounter(["usa","canada","thailand","philippines"]))
 
 ```python
  3.Get all employees hired after 01-01-1995
-mysql> select distinct hire_date from employees.employees where hire_date>1995-01-01;
+
+mysql> select distinct hire_date from employees.employees where hire_date>1995-01-01
 
     Answer: 5434 rows in set, 1 warning (0.24 sec)
+
+```
+```python
+4. Get all salaries from 60000 to 90000
+
+mysql> select salary from employees.salaries where salary>=60000 and salary<=90000
+
+    Answer: 1261748 rows in set (1.01 sec)
+
+```
+```python
+5. Get all titles where title is equal to engineer
+
+mysql> select title from employees.titles where title='Engineer'
+
+    Answer: 115003 rows in set (0.22 sec)
+
 ```
 
 
