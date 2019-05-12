@@ -120,6 +120,44 @@ Answer: A WHERE clause is used is filter records from a result.  The filter occu
 
 Answer: 1965-02-01
 
+```
+
+### Class 4:
+
+```python
+
+ACID & BASE
+
+1. Define a scenario where ACID properties are needed, enlist 3 reasons why.
+
+Booking a flight ticket, or buying tickets for a show. 
+Because ACID has zero tolerance for error, consistent, and where transaction requires minimal speed.
+
+2. Define a scenario where BASE properties are needed, enlist 3 reasons why.
+
+NoSQL Types
+
+1. Your client wants to find potential clients based on their locations or interests, what would you suggest? 
+
+Answer: Graph
+
+2. You need to store the logs from your billing system in a way that they will become easy to access.
+
+Answer: Document
+
+3. You want to analyze the most accessed site of your e-commerce platform over the time. Where would you store the data?
+
+Answer: Columnar
+
+4. You want to store the inventory of your website contents per endpoints. The page contents will be labelled with the page endpoint accessed, for quick access. Which database solution you would choose?
+
+Answer: Relational Database
+
+5. You have to store financial information about your clients, such as balance account and personal information. Which one you will use?
+
+Answer: Relational Database
+
+```
 
 
 
